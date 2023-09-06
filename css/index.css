@@ -1,0 +1,37 @@
+
+body {
+    background-color: bisque;
+}
+
+#bandcamp {
+    height:auto;
+    width: 10%;
+}
+
+#nameTitle {
+  font-family: 'Astloch', cursive;
+  font-size: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#album {
+    margin-right: 50px;
+
+}
+
+#aboutUs {
+    width: 50%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+#nav {
+    margin-bottom:150px;
+    border: 2px solid rgb(113, 179, 184);
+    width:auto;
+    margin-right: auto;
+    margin-left: auto;
+}
