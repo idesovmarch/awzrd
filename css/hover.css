@@ -66,8 +66,8 @@
 .hvr-pulse {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
+  -webkit-transform: perspective(10px) translateZ(1);
+  transform: perspective(10px) translateZ(1);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
@@ -75,8 +75,8 @@
   animation-name: hvr-pulse;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+  -webkit-animation-timing-function: step-end;
+  animation-timing-function: step-end;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
